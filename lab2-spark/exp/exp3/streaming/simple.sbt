@@ -1,4 +1,5 @@
 name := "Simple Project"
 version := "1.0"
-scalaVersion := "2.11.8"
-libraryDependencies += "org.apache.spark" %% "spark-sql" % "2.0.0"
+scalaVersion := "2.12.17"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.4.2"
+// libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.0" % "test"
