@@ -1,0 +1,22 @@
+Damping factor: 0.85
+Number of iterations: 2
+Input directory: pagerank
+Output directory: out
+---------------------------
+Running Job#1 (graph parsing) ...
+2024-04-21 23:10:09,948 INFO client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+2024-04-21 23:10:10,410 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2024-04-21 23:10:10,422 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/xyw/.staging/job_1713711610205_0004
+2024-04-21 23:10:10,502 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-04-21 23:10:10,628 INFO input.FileInputFormat: Total input files to process : 1
+2024-04-21 23:10:10,658 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-04-21 23:10:11,076 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-04-21 23:10:11,081 INFO mapreduce.JobSubmitter: number of splits:1
+2024-04-21 23:10:11,229 INFO sasl.SaslDataTransferClient: SASL encryption trust check: localHostTrusted = false, remoteHostTrusted = false
+2024-04-21 23:10:11,654 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1713711610205_0004
+2024-04-21 23:10:11,655 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2024-04-21 23:10:11,868 INFO conf.Configuration: resource-types.xml not found
+2024-04-21 23:10:11,868 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2024-04-21 23:10:11,924 INFO impl.YarnClientImpl: Submitted application application_1713711610205_0004
+2024-04-21 23:10:11,958 INFO mapreduce.Job: The url to track the job: http://hepnode0:8088/proxy/application_1713711610205_0004/
+2024-04-21 23:10:11,958 INFO mapreduce.Job: Running job: job_1713711610205_0004
