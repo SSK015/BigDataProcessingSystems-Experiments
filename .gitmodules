@@ -1,0 +1,3 @@
+[submodule "lab3-yitu/YiTu"]
+	path = lab3-yitu/YiTu
+	url = https://github.com/SSK015/YiTu.git
